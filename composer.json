@@ -1,0 +1,24 @@
+{
+    "name": "pedroquezado/router",
+    "description": "Um sistema de roteamento flexível e poderoso para PHP.",
+    "keywords": [
+        "rota",
+        "roteamento",
+        "sistema",
+        "PHP"
+    ],
+    "authors": [
+        {
+            "name": "Pedro Quezado",
+            "email": "eu@pedroquezado.com.br"
+        }
+    ],
+    "require": {
+        "php": "^7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "PedroQuezado\\Code\\Router\\": "src"
+        }
+    }
+}
