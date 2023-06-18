@@ -373,4 +373,19 @@ class Router {
         echo "<p>$message</p>";
         exit;
     }
+    
+    /**
+     * Retorna as informações de depuração para var_dump.
+     *
+     * @return array Informações de depuração
+     */
+    public function __debugInfo(): array
+    {
+        return [
+            'routes' => $this->routes,
+            'domain' => $this->domain,
+            'separator' => $this->separator,
+            'namespace' => $this->namespace,
+        ];
+    }
 }
